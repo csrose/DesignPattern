@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CB60E3151F59077700E1294F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB60E3141F59077700E1294F /* main.swift */; };
-		CB60E31C1F59078A00E1294F /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB60E31B1F59078A00E1294F /* Singleton.swift */; };
+		CB2ED9E11F57FD9C00C036CD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2ED9E01F57FD9C00C036CD /* main.swift */; };
+		CB2ED9E81F57FF5300C036CD /* ProductProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2ED9E71F57FF5300C036CD /* ProductProtocol.swift */; };
+		CB2ED9EA1F57FF6B00C036CD /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2ED9E91F57FF6B00C036CD /* Factory.swift */; };
+		CB2ED9EC1F58083000C036CD /* BMW320.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2ED9EB1F58083000C036CD /* BMW320.swift */; };
+		CB2ED9EE1F5808CE00C036CD /* BMW523.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2ED9ED1F5808CE00C036CD /* BMW523.swift */; };
+		CB2ED9F01F58098F00C036CD /* ProductType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2ED9EF1F58098F00C036CD /* ProductType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CB60E30F1F59077700E1294F /* CopyFiles */ = {
+		CB2ED9DB1F57FD9C00C036CD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,13 +28,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CB60E3111F59077700E1294F /* Singleton */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Singleton; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB60E3141F59077700E1294F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		CB60E31B1F59078A00E1294F /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		CB2ED9DD1F57FD9C00C036CD /* Factory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Factory; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2ED9E01F57FD9C00C036CD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CB2ED9E71F57FF5300C036CD /* ProductProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductProtocol.swift; sourceTree = "<group>"; };
+		CB2ED9E91F57FF6B00C036CD /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		CB2ED9EB1F58083000C036CD /* BMW320.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMW320.swift; sourceTree = "<group>"; };
+		CB2ED9ED1F5808CE00C036CD /* BMW523.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMW523.swift; sourceTree = "<group>"; };
+		CB2ED9EF1F58098F00C036CD /* ProductType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CB60E30E1F59077700E1294F /* Frameworks */ = {
+		CB2ED9DA1F57FD9C00C036CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,98 +48,106 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CB60E3081F59077700E1294F = {
+		CB2ED9D41F57FD9C00C036CD = {
 			isa = PBXGroup;
 			children = (
-				CB60E3131F59077700E1294F /* Singleton */,
-				CB60E3121F59077700E1294F /* Products */,
+				CB2ED9DF1F57FD9C00C036CD /* Factory */,
+				CB2ED9DE1F57FD9C00C036CD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CB60E3121F59077700E1294F /* Products */ = {
+		CB2ED9DE1F57FD9C00C036CD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CB60E3111F59077700E1294F /* Singleton */,
+				CB2ED9DD1F57FD9C00C036CD /* Factory */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CB60E3131F59077700E1294F /* Singleton */ = {
+		CB2ED9DF1F57FD9C00C036CD /* Factory */ = {
 			isa = PBXGroup;
 			children = (
-				CB60E3141F59077700E1294F /* main.swift */,
-				CB60E31B1F59078A00E1294F /* Singleton.swift */,
+				CB2ED9E01F57FD9C00C036CD /* main.swift */,
+				CB2ED9E71F57FF5300C036CD /* ProductProtocol.swift */,
+				CB2ED9E91F57FF6B00C036CD /* Factory.swift */,
+				CB2ED9EB1F58083000C036CD /* BMW320.swift */,
+				CB2ED9ED1F5808CE00C036CD /* BMW523.swift */,
+				CB2ED9EF1F58098F00C036CD /* ProductType.swift */,
 			);
-			path = Singleton;
+			path = Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CB60E3101F59077700E1294F /* Singleton */ = {
+		CB2ED9DC1F57FD9C00C036CD /* Factory */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB60E3181F59077700E1294F /* Build configuration list for PBXNativeTarget "Singleton" */;
+			buildConfigurationList = CB2ED9E41F57FD9C00C036CD /* Build configuration list for PBXNativeTarget "Factory" */;
 			buildPhases = (
-				CB60E30D1F59077700E1294F /* Sources */,
-				CB60E30E1F59077700E1294F /* Frameworks */,
-				CB60E30F1F59077700E1294F /* CopyFiles */,
+				CB2ED9D91F57FD9C00C036CD /* Sources */,
+				CB2ED9DA1F57FD9C00C036CD /* Frameworks */,
+				CB2ED9DB1F57FD9C00C036CD /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Singleton;
-			productName = Singleton;
-			productReference = CB60E3111F59077700E1294F /* Singleton */;
+			name = Factory;
+			productName = Factory;
+			productReference = CB2ED9DD1F57FD9C00C036CD /* Factory */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CB60E3091F59077700E1294F /* Project object */ = {
+		CB2ED9D51F57FD9C00C036CD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = YangXiaodong;
 				TargetAttributes = {
-					CB60E3101F59077700E1294F = {
+					CB2ED9DC1F57FD9C00C036CD = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = CB60E30C1F59077700E1294F /* Build configuration list for PBXProject "Singleton" */;
+			buildConfigurationList = CB2ED9D81F57FD9C00C036CD /* Build configuration list for PBXProject "Factory" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = CB60E3081F59077700E1294F;
-			productRefGroup = CB60E3121F59077700E1294F /* Products */;
+			mainGroup = CB2ED9D41F57FD9C00C036CD;
+			productRefGroup = CB2ED9DE1F57FD9C00C036CD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CB60E3101F59077700E1294F /* Singleton */,
+				CB2ED9DC1F57FD9C00C036CD /* Factory */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CB60E30D1F59077700E1294F /* Sources */ = {
+		CB2ED9D91F57FD9C00C036CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB60E3151F59077700E1294F /* main.swift in Sources */,
-				CB60E31C1F59078A00E1294F /* Singleton.swift in Sources */,
+				CB2ED9E11F57FD9C00C036CD /* main.swift in Sources */,
+				CB2ED9E81F57FF5300C036CD /* ProductProtocol.swift in Sources */,
+				CB2ED9EE1F5808CE00C036CD /* BMW523.swift in Sources */,
+				CB2ED9EC1F58083000C036CD /* BMW320.swift in Sources */,
+				CB2ED9EA1F57FF6B00C036CD /* Factory.swift in Sources */,
+				CB2ED9F01F58098F00C036CD /* ProductType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CB60E3161F59077700E1294F /* Debug */ = {
+		CB2ED9E21F57FD9C00C036CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -180,7 +196,7 @@
 			};
 			name = Debug;
 		};
-		CB60E3171F59077700E1294F /* Release */ = {
+		CB2ED9E31F57FD9C00C036CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -221,7 +237,7 @@
 			};
 			name = Release;
 		};
-		CB60E3191F59077700E1294F /* Debug */ = {
+		CB2ED9E51F57FD9C00C036CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -229,7 +245,7 @@
 			};
 			name = Debug;
 		};
-		CB60E31A1F59077700E1294F /* Release */ = {
+		CB2ED9E61F57FD9C00C036CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -240,24 +256,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CB60E30C1F59077700E1294F /* Build configuration list for PBXProject "Singleton" */ = {
+		CB2ED9D81F57FD9C00C036CD /* Build configuration list for PBXProject "Factory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB60E3161F59077700E1294F /* Debug */,
-				CB60E3171F59077700E1294F /* Release */,
+				CB2ED9E21F57FD9C00C036CD /* Debug */,
+				CB2ED9E31F57FD9C00C036CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB60E3181F59077700E1294F /* Build configuration list for PBXNativeTarget "Singleton" */ = {
+		CB2ED9E41F57FD9C00C036CD /* Build configuration list for PBXNativeTarget "Factory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB60E3191F59077700E1294F /* Debug */,
-				CB60E31A1F59077700E1294F /* Release */,
+				CB2ED9E51F57FD9C00C036CD /* Debug */,
+				CB2ED9E61F57FD9C00C036CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CB60E3091F59077700E1294F /* Project object */;
+	rootObject = CB2ED9D51F57FD9C00C036CD /* Project object */;
 }
