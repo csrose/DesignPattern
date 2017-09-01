@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB6F890F1F59443900CE0770 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6F890E1F59443900CE0770 /* main.swift */; };
+		CB6F89161F59445600CE0770 /* FactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6F89151F59445600CE0770 /* FactoryProtocol.swift */; };
+		CB6F89181F59449E00CE0770 /* ProductType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6F89171F59449E00CE0770 /* ProductType.swift */; };
+		CB6F891A1F59450000CE0770 /* AirconditionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6F89191F59450000CE0770 /* AirconditionProtocol.swift */; };
+		CB6F891C1F59453600CE0770 /* CarProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6F891B1F59453600CE0770 /* CarProtocol.swift */; };
+		CB6F891E1F5945A300CE0770 /* BMW320.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6F891D1F5945A300CE0770 /* BMW320.swift */; };
+		CB6F89201F5945DB00CE0770 /* BMW523.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6F891F1F5945DB00CE0770 /* BMW523.swift */; };
+		CB6F89221F59460E00CE0770 /* AirconditionBMW320.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6F89211F59460E00CE0770 /* AirconditionBMW320.swift */; };
+		CB6F89241F59468A00CE0770 /* AirconditionBMW523.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6F89231F59468A00CE0770 /* AirconditionBMW523.swift */; };
+		CB6F89261F59476700CE0770 /* FactoryBMW320.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6F89251F59476700CE0770 /* FactoryBMW320.swift */; };
+		CB6F89281F59488800CE0770 /* FactoryBMW523.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6F89271F59488800CE0770 /* FactoryBMW523.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CB6F89091F59443900CE0770 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CB6F890B1F59443900CE0770 /* AbstractFactory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AbstractFactory; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB6F890E1F59443900CE0770 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CB6F89151F59445600CE0770 /* FactoryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryProtocol.swift; sourceTree = "<group>"; };
+		CB6F89171F59449E00CE0770 /* ProductType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductType.swift; sourceTree = "<group>"; };
+		CB6F89191F59450000CE0770 /* AirconditionProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirconditionProtocol.swift; sourceTree = "<group>"; };
+		CB6F891B1F59453600CE0770 /* CarProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarProtocol.swift; sourceTree = "<group>"; };
+		CB6F891D1F5945A300CE0770 /* BMW320.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMW320.swift; sourceTree = "<group>"; };
+		CB6F891F1F5945DB00CE0770 /* BMW523.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMW523.swift; sourceTree = "<group>"; };
+		CB6F89211F59460E00CE0770 /* AirconditionBMW320.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirconditionBMW320.swift; sourceTree = "<group>"; };
+		CB6F89231F59468A00CE0770 /* AirconditionBMW523.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirconditionBMW523.swift; sourceTree = "<group>"; };
+		CB6F89251F59476700CE0770 /* FactoryBMW320.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryBMW320.swift; sourceTree = "<group>"; };
+		CB6F89271F59488800CE0770 /* FactoryBMW523.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryBMW523.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB6F89081F59443900CE0770 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB6F89021F59443900CE0770 = {
+			isa = PBXGroup;
+			children = (
+				CB6F890D1F59443900CE0770 /* AbstractFactory */,
+				CB6F890C1F59443900CE0770 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB6F890C1F59443900CE0770 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB6F890B1F59443900CE0770 /* AbstractFactory */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB6F890D1F59443900CE0770 /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				CB6F89171F59449E00CE0770 /* ProductType.swift */,
+				CB6F890E1F59443900CE0770 /* main.swift */,
+				CB6F89151F59445600CE0770 /* FactoryProtocol.swift */,
+				CB6F89251F59476700CE0770 /* FactoryBMW320.swift */,
+				CB6F89271F59488800CE0770 /* FactoryBMW523.swift */,
+				CB6F89191F59450000CE0770 /* AirconditionProtocol.swift */,
+				CB6F891B1F59453600CE0770 /* CarProtocol.swift */,
+				CB6F891D1F5945A300CE0770 /* BMW320.swift */,
+				CB6F891F1F5945DB00CE0770 /* BMW523.swift */,
+				CB6F89211F59460E00CE0770 /* AirconditionBMW320.swift */,
+				CB6F89231F59468A00CE0770 /* AirconditionBMW523.swift */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB6F890A1F59443900CE0770 /* AbstractFactory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB6F89121F59443900CE0770 /* Build configuration list for PBXNativeTarget "AbstractFactory" */;
+			buildPhases = (
+				CB6F89071F59443900CE0770 /* Sources */,
+				CB6F89081F59443900CE0770 /* Frameworks */,
+				CB6F89091F59443900CE0770 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AbstractFactory;
+			productName = AbstractFactory;
+			productReference = CB6F890B1F59443900CE0770 /* AbstractFactory */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB6F89031F59443900CE0770 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = YangXiaodong;
+				TargetAttributes = {
+					CB6F890A1F59443900CE0770 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CB6F89061F59443900CE0770 /* Build configuration list for PBXProject "AbstractFactory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB6F89021F59443900CE0770;
+			productRefGroup = CB6F890C1F59443900CE0770 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB6F890A1F59443900CE0770 /* AbstractFactory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB6F89071F59443900CE0770 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6F891E1F5945A300CE0770 /* BMW320.swift in Sources */,
+				CB6F89221F59460E00CE0770 /* AirconditionBMW320.swift in Sources */,
+				CB6F89161F59445600CE0770 /* FactoryProtocol.swift in Sources */,
+				CB6F89281F59488800CE0770 /* FactoryBMW523.swift in Sources */,
+				CB6F89201F5945DB00CE0770 /* BMW523.swift in Sources */,
+				CB6F890F1F59443900CE0770 /* main.swift in Sources */,
+				CB6F89261F59476700CE0770 /* FactoryBMW320.swift in Sources */,
+				CB6F891C1F59453600CE0770 /* CarProtocol.swift in Sources */,
+				CB6F89241F59468A00CE0770 /* AirconditionBMW523.swift in Sources */,
+				CB6F891A1F59450000CE0770 /* AirconditionProtocol.swift in Sources */,
+				CB6F89181F59449E00CE0770 /* ProductType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CB6F89101F59443900CE0770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB6F89111F59443900CE0770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CB6F89131F59443900CE0770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CB6F89141F59443900CE0770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB6F89061F59443900CE0770 /* Build configuration list for PBXProject "AbstractFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB6F89101F59443900CE0770 /* Debug */,
+				CB6F89111F59443900CE0770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB6F89121F59443900CE0770 /* Build configuration list for PBXNativeTarget "AbstractFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB6F89131F59443900CE0770 /* Debug */,
+				CB6F89141F59443900CE0770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB6F89031F59443900CE0770 /* Project object */;
+}
